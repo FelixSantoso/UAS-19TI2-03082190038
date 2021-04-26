@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{862DC527-797C-4BFF-A205-36D3D33D4A5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hotel</RootNamespace>
+    <AssemblyName>Hotel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB\HotelDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Bayar.cs" />
+    <Compile Include="Model\Book.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Kamar.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CheckIn.Designer.cs">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CheckOut.Designer.cs">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DaftarBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DaftarBooking.Designer.cs">
+      <DependentUpon>DaftarBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DaftarCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DaftarCustomer.Designer.cs">
+      <DependentUpon>DaftarCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DaftarUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DaftarUser.Designer.cs">
+      <DependentUpon>DaftarUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormDaftarKamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormDaftarKamar.Designer.cs">
+      <DependentUpon>FormDaftarKamar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormHalamanUtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FormHalamanUtama.Designer.cs">
+      <DependentUpon>FormHalamanUtama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pembatalan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pembatalan.Designer.cs">
+      <DependentUpon>Pembatalan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pembayaran.Designer.cs">
+      <DependentUpon>Pembayaran.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="obj\x86\Debug\Hotel.Login.resources" />
+    <EmbeddedResource Include="obj\x86\Debug\Hotel.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CheckIn.resx">
+      <DependentUpon>CheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CheckOut.resx">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DaftarBooking.resx">
+      <DependentUpon>DaftarBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DaftarCustomer.resx">
+      <DependentUpon>DaftarCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DaftarUser.resx">
+      <DependentUpon>DaftarUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormDaftarKamar.resx">
+      <DependentUpon>FormDaftarKamar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormHalamanUtama.resx">
+      <DependentUpon>FormHalamanUtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pembatalan.resx">
+      <DependentUpon>Pembatalan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pembayaran.resx">
+      <DependentUpon>Pembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\Hotel.vshost.exe.manifest" />
+    <None Include="DB\HotelDataSet.xsc">
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB\HotelDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HotelDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB\HotelDataSet.xss">
+      <DependentUpon>HotelDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\x86\Debug\Hotel.csproj.GenerateResource.Cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Hotel.exe" />
+    <Content Include="bin\Debug\Hotel.pdb" />
+    <Content Include="bin\Debug\Hotel.vshost.exe" />
+    <Content Include="DB\Hotel.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="obj\x86\Debug\Hotel.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\x86\Debug\Hotel.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

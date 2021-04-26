@@ -1,0 +1,35 @@
+D:\C#\Hotel\Hotel\bin\Debug\Hotel.exe
+D:\C#\Hotel\Hotel\bin\Debug\Hotel.pdb
+D:\C#\Hotel\Hotel\obj\x86\Debug\Hotel.Properties.Resources.resources
+D:\C#\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+D:\C#\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+D:\C#\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+D:\C#\Hotel\Hotel\obj\x86\Debug\Hotel.Login.resources
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.exe
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.pdb
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.Properties.Resources.resources
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.Login.resources
+D:\Group PPL\Hotel\Hotel\bin\Debug\Hotel.exe
+D:\Group PPL\Hotel\Hotel\bin\Debug\Hotel.pdb
+D:\Group PPL\Hotel\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+D:\Group PPL\Hotel\bin\Debug\Hotel.exe.config
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.exe
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.pdb
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.csprojResolveAssemblyReference.cache
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.Properties.Resources.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.Login.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.csproj.GenerateResource.Cache
+D:\Group PPL\Hotel\bin\Debug\DB\Hotel.accdb
+D:\Group PPL\Hotel\bin\Debug\Hotel.exe
+D:\Group PPL\Hotel\bin\Debug\Hotel.pdb
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.FormHalamanUtama.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.FormDaftarKamar.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.DaftarCustomer.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.Booking.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.Pembatalan.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.CheckIn.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.DaftarBooking.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.CheckOut.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.Pembayaran.resources
+D:\Group PPL\Hotel\obj\x86\Debug\Hotel.UI.DaftarUser.resources
